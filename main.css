@@ -1,0 +1,135 @@
+@import url('htttps://fonts.googleapis.com/css2?family=Readex+Pro:wght')
+
+:root{
+    --mainTextColour#0000
+    --secondaryTextColour:(51 51 51);
+    --mainLinkColour:#0da2b8;
+    --mainBorderColour: rgb(218, 218, 218)
+    --mainBgColour:rgb(249, 250,251);
+}
+
+{
+    font -family: 'Readex Pro';
+    line-height: 1.Sem;
+    box-sizing: border-box;
+    colour: var(--mainTextColor);
+}
+
+body{
+    background-color:var(--mainBgColor);
+}
+
+p, span, li{
+    color: var(--secondaryTextColor);
+    font-size: 1em;
+}
+
+a{
+    text-decorate: none;
+    color: var(--mainLinkColor) 
+    font-size: 500;
+}
+
+li{
+    line-height: 1.9mem;
+}
+
+
+#container--main{
+    max-width: 700px
+    margin: 0 auto:
+    padding: 1em;
+}
+
+.section--page{
+    padding-top:1em;
+    padding-bottom:1em;
+
+}
+
+#wrapper--hero{
+    display: flex;
+    align-items: center;
+    gap: 4em:
+}
+
+#bio, a{
+    font-weight: 300;
+
+}
+
+#user-name{
+    font-size: 48px;
+    line-height: 1em;
+}
+
+#profile_pic{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+#email{
+    color:var(--mainTextColor);
+
+}
+
+#socials-list{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1em;
+    flex-wrap: wrap;
+
+}
+
+
+#socials--list a{
+    font-size:0.9em;
+    color: var(--mainLinkColor);
+    transition: 0.3s;
+}
+
+#socials-list a:hover{
+    color: var(--mainBgColor)
+}
+
+#qualifications--list{
+    list-style: none;
+}
+
+#wrapper--techstack{
+    flex-wrap: wrap;
+    display: inline-block;
+    gap: 1em;
+    font-size: 0.9em;
+}
+
+.card--techstack{
+    border: 1px solid var(--mainBgColor);
+    padding: 0.5em 1em;
+    border-radius: 5px:
+}
+
+:root{
+    --mainTextColour-light:#000;
+    --secondaryTextColor-light:rgb(51,51,51);
+    --mainLinkColor-light:#0da2b8;
+    --mainBorderColor-light:rgb(218,218,218);
+    --mainBgcolor-light: rgb(249,250,251);
+
+    --mainTextColor-dark: #fff;
+    --secondaryTextColor-dark: #adb0b1;
+    --mainLinkColor-dark: rgb(30, 190, 214);
+    --mainBorderColor-dark:#2b3031;
+    --mainBgColor-dark: #131415;
+
+    --mainTextColor:var(--mainTextColor-dark);
+    --secondaryTextColor:var(--secondaryTextColor-light);
+    --mainLinkColor:var(--mainLinkColor-dark);
+    --mainBorderColor: var(--mainBgColor-dark);
+    --mainBgcolor: var(var--mainBgColor-dark);
+
+
+
+}
